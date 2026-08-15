@@ -75,6 +75,7 @@ The dataset was obtained from the official **Washington State Open Data** portal
 
 [Washington State Electric Vehicle Title and Registration Activity](https://data.wa.gov/Transportation/Electric-Vehicle-Title-and-Registration-Activity/rpr4-cgyd/about_data)
 
+> **Note:** The original dataset is large and is not included directly in this repository. Please download the latest dataset from the official Washington State Open Data portal using the link above.
 ### Important Fields
 
 * Vehicle Type
@@ -106,16 +107,13 @@ The dataset was obtained from the official **Washington State Open Data** portal
 ```text
 EV-Market-Analytics/
 │
-├── DATA/
-│   └── Source / working data files
-│
 ├── DATABASE/
 │   └── ev.db
 │
 ├── IMAGES/
 │   ├── Electric Vehicle Market Analytics Dashboard.png
-│   ├── Geographic Insights & Regional EV Adoption.png
-│   └── EV Trend & Technology Insights.png
+│   ├── EV Trend & Technology Insights.png
+│   └── Geographic Insights & Regional EV Adoption.png
 │
 ├── POWER BI/
 │   └── EV Market Analytics Dashboard.pbix
