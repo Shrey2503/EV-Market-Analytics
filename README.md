@@ -6,7 +6,7 @@ The project analyzes electric vehicle registration data from the **Washington St
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Project Objective 
 
 The objective of this project is to analyze electric vehicle registration activity and identify meaningful patterns related to:
 
