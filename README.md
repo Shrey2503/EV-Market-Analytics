@@ -107,9 +107,6 @@ The dataset was obtained from the official **Washington State Open Data** portal
 ```text
 EV-Market-Analytics/
 │
-├── DATABASE/
-│   └── ev.db
-│
 ├── IMAGES/
 │   ├── Electric Vehicle Market Analytics Dashboard.png
 │   ├── EV Trend & Technology Insights.png
@@ -126,16 +123,12 @@ EV-Market-Analytics/
 
 ### File Description
 
-| Folder / File               | Purpose                                                      |
-| --------------------------- | ------------------------------------------------------------ |
-| `DATA/`                     | Source and working EV data                                   |
-| `DATABASE/ev.db`            | SQLite database containing the cleaned `registrations` table |
-| `IMAGES/`                   | Power BI dashboard screenshots                               |
-| `POWER BI/`                 | Final Power BI dashboard file                                |
-| `QUERIES/EV_Analysis.ipynb` | Python data preparation and SQL analysis notebook            |
-| `README.md`                 | Project documentation                                        |
-
----
+| Folder / File               | Purpose                           |
+| --------------------------- | --------------------------------- |
+| `IMAGES/`                   | Power BI dashboard screenshots    |
+| `POWER BI/`                 | Final Power BI dashboard file     |
+| `QUERIES/EV_Analysis.ipynb` | Python data preparation and SQL analysis notebook |
+| `README.md`                 | Project documentation              |
 
 ## 📌 Dataset Overview
 
@@ -331,12 +324,14 @@ Unrealistic Model Year Values : 0
 
 # 🗄️ SQLite Database
 
-After the data preparation stage, the cleaned Pandas DataFrame was loaded into a SQLite database.
+After the data preparation stage, the cleaned Pandas DataFrame was loaded into a SQLite database for analytical SQL queries.
+
+> **Note:** The SQLite database is not included in this repository because of its large file size. It is generated locally from the cleaned dataset when the analysis notebook is executed.
+
+### Main Table
 
 ```text
-DATABASE/
-└── ev.db
-```
+registrations
 
 ### Main Table
 
