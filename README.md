@@ -366,6 +366,25 @@ QUERIES/EV_Analysis.ipynb
 
 The analysis was designed around practical EV market questions.
 
+## 🔎 Analytical Questions
+
+The SQL analysis answers business questions related to:
+
+- Total EV registrations
+- Top EV manufacturers
+- EV adoption by model year
+- BEV vs PHEV distribution
+- Top counties and geographic concentration
+- Average electric range by manufacturer
+- New vs used EV distribution
+- Top EV models
+- Manufacturer growth
+- Average range by vehicle technology
+- Top-3 manufacturer market share
+
+📌 Complete SQL/Python analysis:
+`QUERIES/EV_Analysis.ipynb`
+
 ---
 
 ## 1. Total EV Registrations
